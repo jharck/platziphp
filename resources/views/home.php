@@ -13,7 +13,7 @@
         <?php if ($post == $firstPost): ?>
         <p><?= $post->getBody() ?></p>
         <?php else: ?>
-        <p>Summary...</p>
+        <p>Summary... Testing Jenkins</p>
         <?php endif; ?>
     </li>
     <?php endforeach; ?>
